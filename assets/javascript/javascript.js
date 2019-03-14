@@ -13,7 +13,6 @@ var wordBank = [
   "LEIA",
   "LUCAS",
   "LUKE",
-  "OBI-ONE",
   "PALPATINE",
   "R2D2",
   "SKYWALKER",
