@@ -40,26 +40,3 @@ document.onkeyup = function (event) {
   document.getElementById("wrongGuess").innerHTML = pushWguess.join(", ");
   document.getElementById("tries-text").innerHTML = wgLen;
 };
-
-
-
-// var str = "correctWord"
-// var word = [];
-
-// for (var i = 0; i < str.length; i++) {
-// word.push(str.charAt(i));
-// }
-// for(var i =0; i< word.length; i++)
-// {
-//  if(i == guessedletter)
-//  {
-//    correctlettersGuessed.push(i);
-//  }
-//  else
-//  {
-//   wrongGuessedLetter.push(guessedletter);
-//  }
-//  guessesRemaining--; 
-
-
-// }
