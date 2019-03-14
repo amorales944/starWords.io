@@ -1,3 +1,7 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-color: #cccccc; /*This is here incase my image does not load*/
+}
 .container {
     border-radius: 8px;
     background-color: black;
