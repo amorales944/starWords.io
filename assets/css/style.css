@@ -3,7 +3,13 @@
     background-color: black;
     color: whitesmoke;
 }
-
-/*img {
-    
-}*\
+#navText {
+color: yellow !important;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 8px;
+    color: grey;
+  }

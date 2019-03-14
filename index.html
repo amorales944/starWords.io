@@ -1,3 +1,5 @@
+<!-- view the citedPage.md -->
+
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -12,46 +14,45 @@
 
 <body>
 
-        <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                            <img class="rounded mx-auto d-block" src="./assets/images/starWords.png" alt="starWords image">
-                    </div>
-                </div>
-            </div>
-        
-            <br>
-        
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <h6>Incorrect Gusses listed:</h6>
-                        <div id="wrongGuess"></div>
-                    </br>
-                        
-                        
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
 
-                    </div>
-        
-                    <div class="col-4">
-                        
-                            <div id="game">
-        
-                                    <h4>Wins: <span id="wins-text">0</span></h4>
-                                        <h4>Losses: <span id="losses-text">0</span></h4>
-                                            
-                                </div>
-                                
+                <img class="rounded mx-auto d-block" src="./assets/images/starWords.png" alt="starWords image">
+                <div class="bottom-right">By: Armando Morales></div>
 
-                    </div>
-        
-                    <div class="col-4">
-                        <h6>Guess the Word</h6>
-                            <div id="underScores">
-                                </div>
-                    </div>
-                </div>
+                <p class="text-center" id="navText">Try to guess the word by pressing a single letter on your keyboard
+                </p>
             </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h6>Incorrect Guesses list:</h6>
+                <div id="wrongGuess"></div>
+                </br>
+            </div>
+
+            <div class="col-4">
+
+                <div id="game">
+
+                    <h4>Tries: <span id="tries-text">0</span></h4>
+                </div>
+
+
+            </div>
+
+            <div class="col-4">
+                <h6>Guess the Word</h6>
+                <div id="underScores"></div>
+            </div>
+        </div>
+    </div>
 
     <script src="./assets/javascript/javascript.js"></script>
 </body>
